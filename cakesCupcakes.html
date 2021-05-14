@@ -1,0 +1,391 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Cakes & Cupcakes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		
+
+		background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% ); 
+
+		/*background-image: linear-gradient( 77.1deg,  rgba(245,220,168,1) 11.5%, rgba(22,220,236,1) 100.2% ); Online Businesses*/ 
+
+			
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(cakeshead.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 250px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 520px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+		
+	<div class="container">
+		<h1>Cakes & Cupcakes Pastry Business</h1>
+	</div>
+	<img src="chickencupcake.jpg" class="photo">
+	<p class="intro">Cupcakes come in many varieties and sizes but there are a few factors that are always the same. Cupcakes are generally baked in muffin pans that are lined with baking paper. They are small in size and are usually frosted and decorated. Almost any type of cake or brownie can be made into a cupcake.Cake is a form of sweet dessert that is typically baked. In its oldest forms, cakes were modifications of breads, but cakes now cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries, meringues, custards, and pie.</p>
+
+	<!--<h2 style="text-align: center;background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);; color: white; padding: 20px;">Pre-Loved Clothing</h2> -->
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="cakes&Cupcakes.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides for Cakes & Cupcakes Pastry Business</h1>
+
+		<img src="cupcakeads.jpg" class="imagesAds">
+
+			<ul style="list-style-type: disc;">
+				<br><br>
+				<li class="title">Choose a cupcake business format</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Cupcakes come in many varieties and sizes but there are a few factors that are always the same. There is no one-size-fits-all format for cupcake businesses. You can start small or big, the choice is up to you. If you want to get your cupcakes to as many people as possible, consider a food truck. The best thing about cupcakes is that you can be as basic or as unique as you want with them.</p>
+					
+
+				<li class="title">Write a business plan</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">In order to show value to potential investors or lenders, you'll want to write a business plan. Use this plan to organize any goals you have for your business and your financial plans. By getting these ideas down on paper, you can review the work you've done so far and make a plan for what still needs to be done. Customize your business plan as need be, but the following sections are ones you should generally include in aBusiness plan. The plan will help guide you through the difficult process of starting a cupcake business. <br> It may take a while to complete, but it will help you stay on track with your goals and know you're working toward an end goal. It will also give you more information about your industry and market to help you understand your competitors. The business plan will be helpful for you to reference down the line when making important decisions about your business. The company overview is your business's elevator pitch. The marketing and sales plan is how you'll get customers to discover your delicious cupcakes</p>
+
+					<!--<img src="wrads3.png" class="imagesAds"> -->
+
+				<li class="title">Choose a business entity</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Choosing a business entity is an important step to starting a cupcake business. How you structure your business will affect your taxes and legal responsibilities. Consider one of the more common types of business entities. You can choose to be taxed as a partnership, corporation or Limited Liability Company. The most common types are unincorporated, partnership and corporation.</p>
+			
+				<img src="cupcakeads2.jpg" class="imagesAds">
+
+				<li class="title">Choose a business name</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you haven't already come up with a business name, you should start brainstorming now. Double-check that another business isn't already using the name. Check for trademark filings with the U.S. Patent and Trademark Office. If your budget permits, hire an attorney to assist with this process. It's important if you want to take your cupcake business online or to a larger market.</p>
+
+				<li class="title">Find the right location</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you're planning to move forward with a storefront, you should consider working with a commercial real estate agent. You may want to consider buying a used food truck off a website like Craigslist for a better deal. Find a specialty car dealer online or in-person that sells food trucks or trucks that can be transformed into food trucks. If you decide a food truck is more your style, find a specialty food truck dealer online.</p>
+
+
+				<li class="title">Get the appropriate licenses and permits</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Cities and counties can have specific requirements regarding business licenses and permits you must follow. Businesses within the food services industry will likely need more licenses than most. Your needs may vary based on where you live and your business type. You'll want to review state, city, and county government websites to ensure you have all necessary documentation filed.</p>
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips for Cakes & Cupcakes Pastry Business</h1>
+			<img src="cupcakeads1.jpg" class="imagesAds">
+
+				<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">When a relatively small cupcakery receives a significant capital injection, you know the battle of the cupcake store is beginning to go downhill. The "Great Cupcake Rush" (mirrored in pop culture on the Food Network with the reality hit show "Cupcake Wars") seems to be slowing down to a more manageable rate of development.</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of Cakes & Cupcake Pastry Business</h1>
+		<br>
+
+
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of Cakes & Cupcake Pastry Business</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Can market online</li><br><br>
+				
+
+				<li class="title">You can get help from your friend and families to <br>
+				promote your business</li><br><br><br><br>
+		
+				<li class="title">Advantage for Culinary Students</li><br><br>
+				
+			</ul>
+		</p>
+		<br><br><br><br><br><br>
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of Cakes & Cupcakes Pastry Business</h2>
+			
+			<!--<img src="wrads8.png" class="imagesAds"> -->
+			<ul style="list-style-type: disc;">
+			
+				<li class="title">For home base business it maybe hard to bake because <br> of a small surrounding</li><br><br><br><br>
+				<li class="title">Need to set your standards in terms of taste, hygiene <br>
+				for customers to appreciate your work</li><br><br><br><br>
+				<li class="title">Food prices rise as a result of wastage on plates and chafing dishes.<br> restaurants with the same field of yours</li><br><br><br><br>
+				<li class="title">Need to be more aware for your time.</li><br><br><br>
+					
+			</ul>
+	</div>
+
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="cupcakearticle.jpg" class="article-photo">
+			<p>2016 * 5-minute read</p>
+
+			<h2 style="text-decoration: underline;">Cakes Introduction</h2>
+			<p>There are many different types of cake recipes and numerous ways of categorizing them. The general classification...</p>
+			<br>
+			<a href="https://www.craftybaking.com/learn/baked-goods/cakes" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="cupcakearticle1.jpg" class="article-photo">
+			<p>2018 * 15-minute read</p>
+			<h2 style="text-decoration: underline;">Cupcake Marketing: 3 Shop Owners Spill The Beans</h2>
+			<p>So you think you’re ready to open a cupcake shop, right? Cupcakes practically market themselves, right? The cupcake business is booming, and customers...</p>
+			<br>
+			<a href="https://upserve.com/restaurant-insider/cupcake-marketing-tips/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="cupcakearticle2.jpg" class="article-photo">
+			<p>2020 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">How to Start a Cupcake Business: A Step-by-Step Guide</h2>
+			<p>If you think there isn’t a day better spent than one baking up a storm in the kitchen, then opening a cupcake business may be the right....</p>
+			<br>
+			<a href="https://www.nerdwallet.com/article/small-business/how-to-start-a-cupcake-business" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="bayani.png"><img src="bayani.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">ALEXANDER BAYANI</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: bayani.alexander@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy: <a href="https://www.youtube.com/watch?app=desktop&v=Nk7_uKku1cw" style="color: white">Elias Moreno</b><br>https://www.youtube.com/watch?app=desktop&v=Nk7_uKku1cw</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

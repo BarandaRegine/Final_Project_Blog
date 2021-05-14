@@ -1,0 +1,411 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Food Panda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% ); 
+
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(pandahead.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 280px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 520px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+		
+	<div class="container">
+		<h1>Food Panda Delivery Service</h1>
+	</div>
+	<img src="pandaintro.png" class="photo">
+	<p class="intro">Foodpanda is the world's most popular online food delivery service. It has operations in over 40 countries on five continents. Foodpanda launched in the Philippines in June 2014 and has since expanded to over 1,000 partner restaurants. Foodpanda helps users to easily find food in their area and order their favorite meals directly from the app. Foodpanda is a simple online service that allows you to order food from a variety of restaurants. Enjoy a variety of cuisines and flavors delivered right to your door. On the home page, choose your areas. Choose from a large selection of restaurants that deliver to your place.</p>
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="foodpandavid.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guide on how to Start at Food Panda</h1>
+
+		<img src="pandads.jpg" class="imagesAds">
+
+			<ul style="list-style-type: disc;">
+				<br><br>
+				<li class="title">Process your Requirements</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It's simple to apply to be a Foodpanda delivery rider. However, make sure you follow their specifications first. To ensure a smooth application experience, prepare the things on this checklist.
+					<br><br>
+					* Motorcycle/Bicycle<br><br>
+					* Professional driver’s license <br><br>
+					* Tax identification number <br><br>
+					* LTO motorcycle registration (OR/CR) <br><br>
+					* At least twogovernment-issued IDs (ex. license, passport, postal ID) <br><br>
+					* P500 (for the uniform and cargo bag) <br><br>
+					* A smartphone (4s or newer for iPhones, and 4.2 or newer for Androids) <br><br>
+					* A verified GCash account</p>
+					
+
+				<li class="title">Age Qualification</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Users under the age of 18 must obtain permission from their parent(s) or legal guardian(s), who agree to take responsibility for your acts and any charges associated with your use of the Platforms and/or purchase of Goods by accepting these Terms. You must be at least 18 years old to apply because you will be signing a legally binding contract with Foodpanda.</p>
+
+					<!--<img src="wrads3.png" class="imagesAds"> -->
+
+				<li class="title">Get Started</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">To become a Foodpanda delivery rider, you must first apply online. To get started, go to their website and select your location and car. Fill out the form with your personal information and upload images to prove that you meet the criteria mentioned above.</p>
+
+				<li class="title">Familiarize Rider’s Training</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">You'll also need to watch a video tutorial and download two applications (Foodpanda's Roadrunner and Telegram). As a result, give yourself plenty of time. If you've uploaded, downloaded, and filled out everything, double-check the service agreement (which you should read thoroughly) before hitting send. That is everything there is to it.</p>
+
+				<li class="title">Wait for Food Panda’s Response on you Application</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Foodpanda will review your application and contact you to let you know if you've been approved. Riders who have had their applications accepted will receive extra training on how to manage food and interact with customers.</p>
+
+				<li class="title">Here’s how much you’ll earn</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you've signed up as a Foodpanda rider, you can schedule your deliveries whenever you want. If you have an errand to run, you should do it first and then resume deliveries. However, more deliveries mean more money. Good partner riders can earn up to P30,000 per month, according to the company. Furthermore, the app has a built-in incentive system for riders who provide outstanding service.</p>
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips to become part of Food Panda Delivery Service</h1>
+			<img src="pandads2.jpg" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Work downtown</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It's also clear that switching to a high batch raises your per-job earnings. Your batch is determined by how well you do.</p>
+
+				<li class="title">Start all shifts early and don't leave work early</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since the patterns of people who order online aren't always consistent, you'll need to plan your time if you want to take advantage of those opportunities to get a lot of orders.</p>
+
+				<li class="title">Manage your notification always</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">
+						You may wear an ear phone or mount your phone on your handlebars to avoid missing notifications for new jobs.  
+					</p>
+
+				<li class="title">Work in the same area every shift</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">
+						had a steady stream of work, most of which were close together.
+						It goes without saying, but it's worth repeating: if you schedule your shifts and work when people eat, you'll get more work! Breakfast, lunch, and dinner are the most common times for most people.  
+					</p>
+
+				<li class="title">Work when people eat</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">
+					Take note of this:
+					<br><br>  
+					breakfast (8 AM - 10 AM) 
+					<br><br>
+					lunchtime (11:30 AM - 1:30 PM) and 
+					<br><br>
+					dinner time (5:30 PM - 8 PM).     
+					</p>
+			</ul>
+		</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of being in Food Panda Delivery Service</h1>
+		<img src="pandads3.jpg" class="imagesAds">
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of being in Food Panda Delivery Service</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Insured</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Foodpanda has teamed up with Cebuana Lhuillier to provide mandatory insurance to its customers. According to Foodpanda, mandatory insurance prioritizes incentives that riders will expect in the event of a road accident. Foodpanda riders will get a year's worth of insurance for PHP 280.</p>
+				<li class="title">Flexible</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It takes a lot of patience because orders change every day. Various issues will arise, and we must become used to them. Regardless, it's a fun and versatile work.</p>
+
+				<li class="title">Productive and more involved to community</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It's a risky work, but it's a straightforward one. All I have to do now is deliver the food to the customer. With people, I learned a lot about the community. The management is excellent because they are often concerned about their employees' well-being. The thing I like most about Food Panda is that you can meet new people and not feel stressed when working.</p>
+
+			</ul>
+		</p>
+
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of  being in Food Panda Delivery Service</h2>
+
+			<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Irregular Schedule</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Riders must fight or choose their schedule early. Otherwise, there is no way to work and earn money. To get the time, you'll have to negotiate with other riders.</p>
+
+				<li class="title">No order, No money</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It is like how hard you work on, and you will appropriately pay for it. If you work less, you will pay less. What you will earn for the whole day of working simply depends on you as well. </p>
+
+				<li class="title">Rude & impatient Customers</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">In this type of business, you will much likely to encounter a lot of rude and impatient customers. Most of them have never seen the hardships of becoming a food delivery rider. They still misuse the notion that the customer is always right, but that should not supposed to be the mindset espcially today.</p>
+			</ul>
+	</div>
+
+
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="foodpandaarticle.jpg" class="article-photo">
+			<p>2020 * 5-minute read</p>
+
+			<h2 style="text-decoration: underline;">Rider Brochure</h2>
+			<p>Welcome to the foodpanda rider community. We’ve curated a simple guide for you to help you get started on your rider journey. This is the same brochure...</p>
+			<br>
+			<a href="https://pandariders.sg/guides/rider-brochure/" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="foodpandaarticle1.jpg" class="article-photo">
+			<p>2021 * 3-minute read</p>
+			<h2 style="text-decoration: underline;">Become a food panda rider</h2>
+			<p>Kumita ng hanggang Php 30,000 kada buwan! Mas maraming orders ang ...</p>
+			<br>
+			<a href="https://rider.foodpanda.ph/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="dato1.png"><img src="dato1.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">ADRIAN LANCE DATO</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: dato.adrian@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy: <a href="https://www.youtube.com/watch?v=z43rWE24Re0" style="color: white">Foodpanda Singapore</b><br>https://www.youtube.com/watch?v=z43rWE24Re0</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

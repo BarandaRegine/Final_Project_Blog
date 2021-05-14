@@ -1,0 +1,425 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Pre-Loved Clothes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		/*background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% ); STREAMING */
+		
+		background: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% ); 
+
+		/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% ); Food Delivery  */
+
+		/*background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );  FreeLancing */
+
+		/*background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% ); FOOD and BEV */
+
+		/*background-image: linear-gradient( 77.1deg,  rgba(245,220,168,1) 11.5%, rgba(22,220,236,1) 100.2% ); Online Businesses*/ 
+
+			
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(clothing2.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 400px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 520px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+
+	<div class="container">
+		<h1>Pre-Loved Clothing</h1>
+	</div>
+	<img src="clothing1.jpg" class="photo">
+	<p class="intro">Preloved clothes business is something that is really going around the internet. According to MacMillan Dictionary Blog, from the word itself pre-loved which is being form from the prefix pre and adjective loved. Its first recorded use was in an Ohio newspaper in 1972, in an advertisement for a preloved home. The hyphenated form is more frequent than the closed form, but both are used. By the name itself, preloved clothing is about buying clothes, accessories and any other items that have already been used or buying an item that someone else has owned and they are up to sell those items from their closets. According to shopyourwardrobe, prices are often a fraction of what the items cost when they were brand new, it also means that we spend less in total amounts that it is supposed to be when being bought as new.  These are also the interestings items that can be found in our closets but sometimes cannot be found in the stores. Re-purpose, upstyle, transform and create entirely new items from.
+
+	 </p>
+
+	<!--<h2 style="text-align: center;background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);; color: white; padding: 20px;">Pre-Loved Clothing</h2> -->
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="prelovedvid.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides for Pre-Loved Clothing Business</h1>
+
+		<p class="intro-business">
+		<img src="clothing.gif" class="ads">
+			As of now, almost everyone can start their own pre-loved clothing business, because this can start on you, the concept is something like a garage but this only limits to clothes, shoes, bags and other accessories. If you are being bothered by a lot of things in your wardrobe and can't keep it anymore. The best thing that you can do for those items is to sell instead of destroying or throwing them away, you've got to manage your closet, you will also earn from it, and that's is one of the amazing ideas of this kind of business. If you really want to push this through and establish a stable preloved clothing business think that like any other business, the phase of starting is always the hardest part. But, we've gathered information for you that can probably help you to take your first step to start your very own preloved clothing business. Grab your paper and pen so you can take down all these guides we have for you.
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Come up with your business plan</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">You have to come up first with your business plan so that even where the business will take, you'll not lose on track. Before everything else, you first have to come up with a good business plan, know the trends and your markets, also your competitors, your budget and your dedication to pursue the business you are aiming for. Make sure that your business has a unique identity from others and you have to plan it carefully before jumping into.</p>
+					
+
+				<li class="title">Look for the items that you don't need anymore in your closet.</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Aside from freeing space in your closets, you'll also earn from doing so. You can find items that you think you don't need anymore or you're not going to wear or use. Also, make sure that these items that you are planning to sell are still in good condition. Don't just sell because you want to earn from those, also consider the people who would buy the products that you are selling, because that is very important in any kind of business. Don't let your items disappoint your customers.</p>
+
+					<img src="clothing1.png" class="imagesAds">
+
+				<li class="title">Utilize Social Media</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Choose the best platform that you think you can reach wider markets. Today, a lot of people are using social media, a simple post can reach a lot of social media users, therefore you have to grab that opportunity. Facebook and Instagram are still one of the biggest platforms in terms of selling products online. You can use both platforms but make sure to utilize them so your potential buyers can easily reach you out. Interactions with your potential customers would be a great way to start as well, you can also conduct live selling to be more interactive for your customers and keep being active as well. Also, make sure to use separate accounts when you are going to post your products online so that it would be easy to manage and look more professional.</p>
+
+					
+
+
+
+				<li class="title">Allot Budget, Time, and Effort</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">This kind of business does not really require you to have a big allotment of money for the budget. Since the concept is not the same as other clothing businesses like, if you have a lot of things to sell, then it is not necessary for you to be problematic on the budget. What really requires you in this business is your time and effort and patience as well, don't expect that as you post online your items, automatically someone will be interested in it so you really need to have your patience. Also, your time and effort is what you really need here and you really have to invest it here, more time and effort to have more possibilities that your business would be able to reach potential customers.</p>
+
+
+
+				<li class="title">Try  also the e-commerce sites and apps</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you want to reach more potential customers, you have to step up. Posting in social media is really a great help to start, but as time goes on a lot of aspiring people who have the same business with you would be everywhere, meaning to say the competition would become high, so you can start considering being engaged in e-commerce sites such as shopee, lazada, carousell etc. for wider markets, and since it is also the trend now, it would be a great advantage and help as well in establishing your business there.</p>
+
+					
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips for Pre-loved Clothing Business</h1>
+			<img src="clothingad6.gif" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Keep your business on track </li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">After being settled, don't lose on track. Sometimes as business goes well it becomes more hard to manage, that is why you have to keep your business on track. Keep on prioritizing tasks that build your core business. Also, keep on knowing and being aware of the trends. The business would be shaky, if today you reach your quota, and tomorrow you don't, just keep on moving forward and don't lose your focus. Customer feedback would also be a great help to improve your business, so don't take them all in a negative way, be open to suggestions and improvements. </p>
+
+				<li class="title">Keep being unique</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">As time goes by, the competition in this kind of business would become high as well, so you should have to maintain your uniqueness from your competitors. Keep your business being distinct from them, offer something new that would help you to retain your customers. Being aware of the trend and trying to cope with it is also a great idea to help your business become more stable..</p>
+			</ul>
+		</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of Pre-Loved Clothing Business</h1>
+		<br>
+
+		<img src="clothingad4.png" class="imagesAds">
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of Pre-Loved Clothing Business</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">You're the Boss</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">You don't have to worry about having a boss to command you on what to do, because in your own preloved clothing business it's all yours, even the products that you are going to sell is yours, that means all the income will be yours too. For future business, you may still consider hiring employees if the business is doing well and stable, so there is someone who can do the things you are  working on.</p>
+		
+
+				<li class="title">You have your own goals for your own business</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">You are the one who would decide where you are going to take your business, you have your own vision for the business having no pressure on other people to achieve those, but just in time that it will be. </p>
+
+				<li class="title">Your closet will be more manageable</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since that concept is something like this, selling things that you don't need anymore. You don't have to worry about where you 're going to put all the new stuff you've got because you already know what to do on the things you will not use anymore.</p>
+
+				<li class="title">Wear it now, sell it later</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">One of the cool ideas about this business is that you've got to buy things you want, without having to be bothered about what to do after using it. Also, there will be no more holding you back buying things you want since you can actually use it brand new, and eventually still can sell it and at least get half of your money back that you paid for it. </p>
+			</ul>
+		</p>
+
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of Pre-Loved Clothing Business</h2>
+			<img src="clothingad2.png" class="imagesAds">
+
+			<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Some people still don't trust second-hand items</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Even though it is part of the trend now, there are still people who don't consider buying second hand items due to some reasons, specifically hygiene concerns, that is why as you start this kind of business be mindful of keeping your items in good condition and of course clean, so that it can't disappoint your customers.</p>
+
+				<li class="title">Selling your items half of the price</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since brand new is much more expensive than second hands, it becomes hard sometimes to decide if you are going to sell it. Also, don't expect that people will buy it the same price as you bought it originally, but it  is still not impossible to happen, but maybe very often and still depends on circumstances that people will do that.</p>
+
+				<li class="title">Does not assure you that it would be stable</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since you are just collecting things in your closet that you don't need anymore, that would not last long of course, that is why it depends on the stuff you've got. But, you can still continue by joining forces with some people you know that can also find things to sell, so you would also be able to help them to earn money from defragmenting their things. </p>
+			</ul>
+	</div>
+
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="prelovedarticle.png" class="article-photo">
+			<p>2020 * 5-minute read</p>
+
+			<h2 style="text-decoration: underline;">14 Simple Truths About Preloved Shopping</h2>
+			<p >I loved preloved shopping. It was one of my favourite formats to shop in, and I still enjoy..</p>
+			<br>
+			<a href="https://shopyourwardrobe.com/tuesday-truths/14-simple-truths-about-preloved-shopping/" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="prelovedarticle1.png" class="article-photo">
+			<p>2021 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">Preloved Selling Guide</h2>
+			<p>Your pieces are preloved and your shoppers are after quality pieces at a bargain. When pricing, consider the provenance of your item – is it a designer label...</p>
+			<br>
+			<a href="https://prelovedclothing.com.au/preloved-selling-guide/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="prelovedarticle2.png" class="article-photo">
+			<p>2021 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">4 Powerful Reasons to Love Pre-Loved Clothing</h2>
+			<p>WeightWatchers found that, women around the world only wear 30% of their wardrobe, 70% of their clothing is unused, never worn until....</p>
+			<br>
+			<a href="https://www.fibre2fashion.com/industry-article/8458/4-powerful-reasons-to-love-pre-loved-clothing" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="prelovedarticle5.png" class="article-photo">
+			<p>2021 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">So you want to sell preloved stuff online to earn extra?</h2>
+			<p>Correct us if we are wrong: You are one of millions of Filipinos who have made an online purchase anytime during quarantine....</p>
+			<br>
+			<a href="https://nolisoli.ph/86803/online-selling-preloved-items-clothes-gadgets-csanjose-20200921/" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="baranda.png"><img src="baranda.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">REGINE BARANDA</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: baranda.regine@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy</b>: The Guardian <br>https://www.youtube.com/watch?v=RR7aP4U2L6o</p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,411 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Overruns Clothing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		/*background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% ); STREAMING */
+		
+		background: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% ); 
+
+		/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% ); Food Delivery  */
+
+		/*background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );  FreeLancing */
+
+		/*background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% ); FOOD and BEV */
+
+		/*background-image: linear-gradient( 77.1deg,  rgba(245,220,168,1) 11.5%, rgba(22,220,236,1) 100.2% ); Online Businesses*/ 
+
+			
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(overrunshead.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 340px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 550px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+
+	<div class="container">
+		<h1>Overruns Clothing</h1>
+	</div>
+	<img src="overruns1.jpg" class="photo">
+	<p class="intro">If you have experience with shopping online, you might already come across websites selling trendy goods especially clothes. According to closeoutexplosion website, shopping on a limited budget such a budget friendly deal could be tempting, believing that it is about the same item that is being sold in malls. Other retailers would label their products as “original overruns” or “authentic overruns”. To conclude, an overrun item is usually a brand name product that did not pass the quality standards of the company and because of that it is being sold for a cheaper price. In addition, take note that these items are not included in those products that are delivered to authorized distributors or in malls, it just has some sort of defects but are still made from the original material just like the branded items.
+	 </p>
+
+	<!--<h2 style="text-align: center;background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);; color: white; padding: 20px;">Pre-Loved Clothing</h2> -->
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="overrunsadsvid.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides for Overruns Clothing Business</h1>
+
+		<p class="intro-business">
+		<img src="overrunsads.gif" class="ads">
+			<ul style="list-style-type: disc;">
+
+				<li class="title">Process legality works of business</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you are considering starting this kind of business, you have to conduct further research to know all the details about how this business works. With regards to our understanding of articles we gathered online,  it is not totally considered that buying overruns products in the factory and selling them. There are also articles that conclude overruns business is not illegal if it undergoes a legal process or meets the contract of the specific factory . Therefore, you really have to work first with your business legality process. Then you can operate the business with no worries of being questioned. </p>
+					
+
+				<li class="title">Find a convenient location</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Most of the overruns business today really establish their own store/shop. Make sure that you find the best location that can cater enough number of people that would visit as well the  space for your products is enough. It doesn't need to be a sophisticated one especially for starters, it just needs to be convenient, can provide a proper environment for the clothes and also must be secure and not prone for any break-ins. Also consider choosing a location that there are a lot of people passing and can easily notice your store. </p>
+
+					
+
+				<li class="title">Choose a right a retailer and supplier</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Like the first ever filipno overruns exporter who became a millionaire because of this business, choosing the right supplier is very important and crucial one. As his success started when korean businessmen brought some of his items in Korea, and he became their trusted supplier. They really play a big role in every business's success. </p>
+
+					<img src="overrunsads3.png" class="imagesAds">
+
+				<li class="title">Budget Planning</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Even when you buy overruns products directly from factories or suppliers cause you to buy them at a cheaper price, it is also necessary to manage your budget effectively. Always consider buying those items that are necessary and on demands so you can use your budget in a wise way. Like Ed Paras who only started this kind of  business with 30,000.00 capital to help him to succeed and become a millionaire, it is just how you are going to manage the money you have in your hand. As much as possible don't need to apply for any loans that could also be a burden to you and to your business.</p>
+
+
+
+				<li class="title">Pricing Planning</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since the good thing in this business is that you buy low and you can sell high. The mark-up that you want to add depends on you, but you just need to be wise enough. For overrun goods, the price range is around 50% - 70%  lower than the prices in malls. In the Philippines, you may find many shops that had been selling overruns from the very beginning. The shopping capability of the Filipino population is not so high, that is why when the idea of this business boomed, it became one of the trendy businesses up until today. 
+</p>
+
+				<li class="title">Promote your business efficiently</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It is almost more than years before when the overrun clothing business starts to boom here in the Philippines. People easily grasp the idea of this kind of business, and most of them are aware what this business is about. Since the day it was known here in our country from one to two to three who started to operate this kind of business, it began to be part of the trends up until now. That is why pursuing this business should require you to promote your products more efficiently and effectively.</p>
+
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips for Overruns Clothing Business</h1>
+			<img src="overrunsads1.png" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Maintain your business identity</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">As a lot of people are also trying to sell overruns products even online, you must need to maintain your business identity, make sure that even there are a lot of businesses like yours are going around, people are still have to keep going back on yours, provide items that you think is part of the trends. That would help your business to be known for being on-trends.</p>
+
+				<li class="title">Don't just depend on one factory or supplier</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">As business goes well, you can also start considering looking at your potential suppliers and other factories that can also offer good deals. You can utilize your products from the different suppliers and it can be more interesting for your customers if they find any other clothing products from other suppliers.</p>
+
+				<li class="title">Keep your good relationship with your customers and suppliers</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Establishing a good relationship between your suppliers and customers can help your business to through a long run. It will also help the business to become stable even the fast-changing of trends and wider competitions in the field of this business. Always end up having a good deal between you and them.</p>
+			</ul>
+		</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of Overruns Clothing Business</h1>
+		<br>
+
+		<img src="overrunsads2.png" class="imagesAds">
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of Overruns Clothing Business</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Buy low sell high</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since these products are known to be branded but don't pass the quality standard due to some defects found on the items. Factories sell these items cheaper than the original prices, meaning to say you can also buy those items at a low price and just add mark-up to sell it higher. You'll be sure to get the capital you provide when purchasing those and gain your income from selling those.</p>
+		
+
+				<li class="title">Income is high</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">What is also good in this business is that some people know that it is branded which is true somehow and you are going to sell them cheaper than the price of it in malls. Since the shopping power of filipino population is not so high, they are more likely to consider buying items in an overrun store. As the demand becomes high, meaning to say the income would probably increase as well.</p>
+
+				
+			</ul>
+		</p>
+
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of Overruns Clothing Business</h2>
+			<img src="overrunsads5.png" class="imagesAds">
+
+			<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Competition within other types clothing businesses</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">The competition widened since there are also types of clothing businesses as well that become more specific on their products unlike before. There are now also RTW businesses and Trend Clothes that are more specific on the items they sell. Before, overruns sell varieties of clothes that include these other types of clothing, but today people tend to buy on those specific clothing lines.</p>
+
+				<li class="title">Not all on sale are actually no real ”authentic overruns”</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">When you go to overruns stores, you would always see those ”Sale” signs but not all of those are so-called ”authentic overruns”, and that brings doubt on people's minds that eventually affect all the business of overruns</p>
+			</ul>
+	</div>
+
+	<div class="articles" id="articles" style="margin-top: 200px;">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="overrunsarticle.jpg" class="article-photo">
+			<p>2021 * 3-minute read</p>
+
+			<h2 style="text-decoration: underline;">How Pinoy made millions from export overruns</h2>
+			<p>MANILA – Ed Paras did not have a background in the garments industry, but his entrepreneurial mindset--and a bit of luck--made him a millionaire....</p>
+			<br>
+			<a href="https://news.abs-cbn.com/business/09/20/15/how-pinoy-made-millions-export-overruns" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="overrunsarticle1.jpg" class="article-photo">
+			<p>2019 * 2-minute read</p>
+			<h2 style="text-decoration: underline;">Buying Factory Overruns in The Philippines</h2>
+			<p>Are you considering buying factory overruns in the Philippines?If you have experience with shopping online, you ...</p>
+			<br>
+			<a href="https://closeoutexplosion.com/products/buying-factory-overruns-in-the-philippines" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="overruns1.jpg" class="article-photo">
+			<p>2021 * 2-minute read</p>
+			<h2 style="text-decoration: underline;">Is it legal to sell factory overruns?</h2>
+			<p>Depends on the contract. In most cases, no. Everything manufactured under license belongs to the one that placed the order. So if Apple....</p>
+			<br>
+			<a href="https://www.quora.com/Is-it-legal-to-sell-factory-overruns" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="baranda.png"><img src="baranda.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">REGINE BARANDA</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: baranda.regine@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy: <a href="https://www.youtube.com/watch?v=mwKLsr_PuBg" style="color: white">Princess Mendoza</b><br>https://www.youtube.com/watch?v=mwKLsr_PuBg</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

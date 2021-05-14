@@ -1,0 +1,429 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>RTW Clothing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		/*background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% ); STREAMING */
+		
+		background: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% ); 
+
+		/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% ); Food Delivery  */
+
+		/*background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );  FreeLancing */
+
+		/*background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% ); FOOD and BEV */
+
+		/*background-image: linear-gradient( 77.1deg,  rgba(245,220,168,1) 11.5%, rgba(22,220,236,1) 100.2% ); Online Businesses*/ 
+
+			
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(rtwhead.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 340px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 520px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+
+	<div class="container">
+		<h1>Ready-To-Wear Clothing</h1>
+	</div>
+	<img src="rtw.jpg" class="photo">
+	<p class="intro">According to an article of MasterClass Website, they defined RTW as Ready-to-wear,it is a clothing that is sold "off the rack" is made in uniform sizes, is typically mass-produced, and is intended to be purchased and worn immediately, sometimes without modification. Just to give you a brief history of this type of clothing business, in addition to the MasterClass article about RTW clothes, during the War of 1812, the US government began mass-producing military uniforms, making them one of the first ready-to-wear garments in history. The concept of ready-to-wear men’s clothing survived the war, and by the end of the century, most men had access to ready-to-wear clothing lines in department stores. Moreover, Yves Saint Lauren is the one who opened up his first store selling a ready-to-wear line by the late 1960s.
+	 </p>
+
+	<!--<h2 style="text-align: center;background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);; color: white; padding: 20px;">Pre-Loved Clothing</h2> -->
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="rtwads.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides for RTW Clothing Business</h1>
+
+		<p class="intro-business">
+		<img src="trendyads.gif" class="ads">
+			Just like any other clothing business, RTW is also a part of the trend now when it comes to clothing line business. What makes it different from the other type of clothing business is that RTW are much more likely to be more convenient than the other because that's the main idea of this kind of business, to provide comfy and convenient clothing to its customer. It might be similar to haute couture but it is not, haute couture is  a high-end clothing that is made or tailored exclusively for specific wearer. 
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Find your Business Niche</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">You have to come up first with your business plan so that even where the business will take, you'll not lose on track. Before everything else, you first have to come up with a good business plan, know the trends and your markets, also your competitors, your budget and your dedication to pursue the business you are aiming for. Make sure that your business has a unique identity from others and you have to plan it carefully before jumping into.</p>
+					
+
+				<li class="title">Be Creative and Unique.</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">As part of the planning process, you should be much more creative and unique. People would find it more difficult to know your business identity if it is something just like the other clothing business, meaning to say that you have to build your own business identity and being unique and creative enough would be a great help. You should also consider the trends in able for your business to cope up with it. Having this advantage of yours can also help you to produce the best branding of the clothes you are going to provide and sell. In this phase will include choosing your business name, designing your clothes to sell, and other basic works to be done in starting your business.</p>
+
+				
+
+				<li class="title">Choose the right supplier and manufacturer</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you want to be a reseller of this kind of business, you should always consider first to choose the right supplier of yours. But if you want to establish one, both of the two should be considered, this is also one of the most crucial and important parts in the planning process. The business would probably depend on them, if both of them can't provide a proper transaction that causes delay and any product issues that leads to customers dissatisfaction, the business would eventually fail.</p>
+
+					
+
+					<img src="rtwads5.png" class="imagesAds">
+
+				<li class="title">Build your Budget </li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Aside from planning the brand of your product, name of your business, choosing your supplier and manufacturer, the phase of budget planning is also important to come first as well. In this type of clothing line business, it might be a little expensive, it requires production that is usually done by manufacturers and by this it would cost you a lot. Therefore, it will require enough budget to establish and operate smoothly and stably. In some articles online, for a jumpstart cost range from P25,000.00 - P30,000.00, would be considered. You have a lot of options when it comes to building your budget, but be wise enough as well. There is no assurance that a business will kick off especially in the beginning, therefore you have to really be mindful in managing your budget.</p>
+
+
+
+				<li class="title">Start with a realist forecast</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Upon starting, you don't have to buy a large quantity of merchandise or expensive products. Focus first on the demands and productions. Make sure that the merchandise you buy for the production of your products suits enough for the demands, also the quality matters. It is much better to produce products that are just within the demands than keeping on producing that exceed customers' demands because you really have to tighten your budget in order to keep it operating.</p>
+
+				<li class="title">Find your best location for your physical store and process legality works</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Upon planning, you must also be mindful of choosing your best location if you are going to operate also with a physical store, take note to consider choosing the place with high traffic of people . If you are planning to have that brick and mortar store, you have to be in a place where a lot of people can easily see the store and convenient to go on. Also, you have to consider first securing all the permits and licenses if you're going to pursue establishing your own physical store to avoid any problems in the long way run.</p>
+
+				<li class="title">Choose your platform and promote your business</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">In the phase of establishing your business and making up with your marketing plans. You have to utilize the online platform that you can use to sell your products and promote your business. There are a lot of platforms out there that you can use, especially when it comes to promoting RTW Clothing Business, most of the people are much interested in the concept of this business, your customers don't have to worry if the item they bought online would fit on them.</p>
+
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips for RTW Clothing Business</h1>
+			<img src="rtwads6.png" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Build your brand identity</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">A lot of RTW business are going through online, and it is just a matter of establishing an identity for your business to make it unique among the others. When you want to establish this business, you must come up with a good business plan, that would include your brand identity. You have to determine the strengths and weaknesses of your business and the product that you are going to produce. On the other hand, if you are planning to be the reseller of this business, you have to be mindful of the products that you are going to sell, since the concept is Ready-To-Wear, meaning that the product must be suitable enough for your customers. </p>
+
+				<li class="title">Keep up with the trends</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Fashion style is not stable, maybe this is the trend now and tomorrow it's not, so you really have to always look at the trends so your business can also go with it. Having an RTW business is really hard to manage but it is always something that you would love to do despite the fast-changing fashion style. New trends meaning new ideas to know and explore for your business. According to an article online, twice a year (at least), you have to completely change the products you are selling. Products in fashion have an average of 6months of life expectancy. After these 6 months, these products lose almost all value. You’ve got to have the mindset that you need to sell your products as soon as possible.</p>
+
+				<li class="title">Be Creative</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Always consider being creative, especially in this kind of business. Your creativeness in terms of promoting your business, designing your products, boosting your brand identity is what you always need in this business as well. As to how fast the trends go, you must also be creative enough to adapt it and make it more interesting for others.</p>
+
+				<li class="title">Widen your markets</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">As of  now, most of the RTW business depends on the standard size of a typical size of a person so they can sell it to masses. Few RTW also customize the sizes and do not offer only on the standard sizes, but they try to produce plus-sizes which is a good thing as well to widen your markets. Don't just go on what is common, but also try to explore more about it because that will also benefit your business. </p>
+
+			</ul>
+		</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of RTW Clothing Business</h1>
+		<br>
+
+		<img src="rtwads3.png" class="imagesAds">
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of Pre-Loved Clothing Business</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Bring out your creativity</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">When it comes to RTW business, your creativity does matter.  Having that imaginary mind of great ideas could really be a big factor on your business. Doing these businesses helps you to bring out your creativity, and building that through working in this would not only be beneficial for your business but also even when you're outside of the business.</p>
+		
+
+				<li class="title">You can establish your own brand</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">What is much interesting about this business is that you can establish your own brand of clothing business. This is not something that others made or idea, but it is all yours. The success of your brand also depends on your willingness to.</p>
+
+				<li class="title">Easy to promote and sell</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since the idea of the business is convenient, therefore promoting and selling is not that hard like any other business. A lot of people are also aware about this business, and for some, they consider buying RTW clothes than those other clothing businesses. One reason is that people don't have to worry too much about if it is going to fit them because the size is already standard. Also, let the word of mouth be one of your marketing strategies, produce products that eventually will make your customer promote it by themselves alone.</p>
+
+				<li class="title">You can easily collaborate with others</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Collaborating in terms of promoting or you can also collaborate for ideas and about the trends. When it comes to promoting, you can be your own ambassador of your own brand, but you can also collaborate with influencers that can promote your RTW business by letting them to model your products, because most of the influencers consider promoting the products that they can actually use and convenient for them.
+</p>
+			</ul>
+		</p>
+
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of RTW Clothing Business</h2>
+			<img src="rtwads1.png" class="imagesAds">
+
+			<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Prices can be expensive</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Unlike any other clothing business that is affordable enough for masses, RTW can be quite expensive because it is brand new. But it doesn't mean that it is not affordable, it is just a little bit higher than the price of other clothing businesses, since it depends on the quality and fashion design of the clothes.
+</p>
+
+				<li class="title">Your fashion ideas have to follow fashion trend</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">It is considered that products in fashion have an average of 6 months of life expectancy, therefore you really have to be hands on when it comes to following the trends because if not, your business can't go on with what is trendy.</p>
+
+				<li class="title">Wide competitors</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Since almost all of the clothing line business nowadays are pursuing RTW, the competitions within the markets are too heavy and competitors are everywhere, so if you are not active enough to promote your business, others will take that opportunity from you.</p>
+			</ul>
+	</div>
+
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="rtw.jpg" class="article-photo">
+			<p>2021 * 2-minute read</p>
+
+			<h2 style="text-decoration: underline;">Ready to Wear Fashion Guide</h2>
+			<p>Knitwear, pleating, twill, denim—a significant portion of the clothes that we buy online or in stores are produced in an assembly line in textile factories...</p>
+			<br>
+			<a href="https://www.masterclass.com/articles/ready-to-wear-fashion-guide#what-is-readytowear" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="rtwarticle1.jpg" class="article-photo">
+			<p>2019 * 5-minute read</p>
+			<h2 style="text-decoration: underline;">What Equipment Do I Need to Start a Clothing Store?</h2>
+			<p>If you're short on creative ideas for your store, head over to a pinboard website and search for the theme you have in mind. For example...</p>
+			<br>
+			<a href="https://smallbusiness.chron.com/equipment-need-start-clothing-store-10682.html" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="rtwarticle2.jpg" class="article-photo">
+			<p>2021 * 20-minute read</p>
+			<h2 style="text-decoration: underline;">How to Start a Clothing Line: Secrets from a Project Runway Designer</h2>
+			<p>When Sarah Donofrio collected her degree in fashion design, she stepped into....</p>
+			<br>
+			<a href="https://www.shopify.com/blog/206934729-how-to-start-a-clothing-line" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="baranda.png"><img src="baranda.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">REGINE BARANDA</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: baranda.regine@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy: <a href="https://www.youtube.com/watch?v=SxHpt4u3BkU" style="color: white">MasterClass</b><br>https://www.youtube.com/watch?v=SxHpt4u3BkU</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,453 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Blogging</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		/*background-image: linear-gradient( 114.2deg,  rgba(121,194,243,1) 22.6%, rgba(255,180,239,1) 67.7% ); STREAMING */
+		
+		/*background: linear-gradient( 89.9deg,  rgba(178,253,238,0.96) -8.1%, rgba(207,244,254,1) 26.3%, rgba(207,244,254,0.48) 47.5%, rgba(254,219,243,0.63) 61.5%, rgba(254,219,243,1) 78.7%, rgba(254,207,210,1) 109.2% ); */
+
+		/*background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(130,205,221,1) 0%, rgba(255,247,153,1) 90% ); Food Delivery  */
+
+		/*background-image: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% );  FreeLancing */
+
+		/*background-image: linear-gradient( 93.1deg,  rgba(238,254,183,1) 19.1%, rgba(169,254,222,1) 53.9%, rgba(90,222,255,1) 92% ); FOOD and BEV */
+
+		background-image: linear-gradient( 77.1deg,  rgba(245,220,168,1) 11.5%, rgba(22,220,236,1) 100.2% ); 
+
+			
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(blogging.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 370px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 75vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 500px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 530px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 34%;
+		height: 190px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+
+	<div class="container">
+		<h1>Blogging</h1>
+	</div>
+	<img src="blogging1.jpg" class="photo">
+	<p class="intro">You can now make blogging as your business by publishing unique contents online. Blogging is basically an online publication related to a particular topic that you wanted to talk about where people can comment regarding their thoughts and opinions. 
+	There are several kinds of bloggers that you can classify yourself to. There are what they call ghost bloggers, affiliate marketer, influencer, blogger with advertisers, email marketer, eBook Author, Infopreneur, online course creator, product reviewer, sponsored post writer, business blogger, social media blogger, event blogger, fashion blogger, travel blogger, DIY blogger, recipe blogger and a lot more to discuss further more at the later part of this page. Choosing blogging as your choice of career may seem unrealistic and not ideal but with enough dedication, right mindset and effort, you can become a well-known and successful blogger.
+
+	</p>
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="What is a Blog.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides On How To Start Blogging</h1>
+
+		<p class="intro-business">
+		<img src="blogads.gif" class="ads">
+			First of all you decide what kind of blogger you want to be. As you have read earlier, there are different types of bloggers in this industry and these are the: 
+			
+			<br>
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Freelance Blogger</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">this kind of blogger gets paid by offering their service as a freelance blogger to other businesses and publications that will pay for every content that they create.
+				</p>
+					
+
+				<li class="title">Ghost Blogger</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">these are the bloggers who write content for other bloggers that publish their work as their own.</p>
+
+				<li class="title">Affiliate Marketer</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">this is a great way for bloggers to earn income. Here you can create content with affiliate links to promote products or services from other brands and earn a percentage from every sale that you gain through it. </p>
+				
+				<li class="title">Influencer</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">this type of bloggers work with partner brands to promote their products or services as an influencer </p>
+					
+				<img src="blogads2.png" class="imagesAds">
+				
+				<li class="title">Product Reviewer</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">here you can get paid by reviewing various products from different brands on your blog 
+ </p>
+				
+				
+				<li class="title">Business Blogger</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">if you have enough knowledge about business topics, then this one's for you. Here you can create your content about business as a way of building up your influence and expertise to offer business consulting, coaching or other business related services.
+</p>
+				
+				<li class="title">Social Media Blogger</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">you can create a blog about social media and use it for marketing social media management or consulting services</p>	
+		</ul>
+		</p>
+	</div>
+			
+	
+	<div class="guide" id="guide">
+		
+		<p class="intro-business" style=" margin-right: 370px;">
+		
+			The list goes on but the bottom line of this is <b>choose the topic you are interested and knowledgeable</b> about to share with other people. So basically, the first step is to pick a topic then the second is to <b>select your platform.</b>  In selecting a platform that is suitable for you, it is important to consider its convenience and its accessibility to your audience. Some examples you can choose from are WordPress, Weebly and Squarespace. Although, WordPress is the most recommended among all of them as it said that this platform is great for blogging because its primary focus is managing content. After this, you need to <b>choose a web hosting provider</b> to give all of the files that make up your blog exist on the internet. Web host providers ensure that your website will be able to grow while maintaining good speed. Next thing to do is to <b>choose your blog’s domain name.</b> Your domain name basically serves as your blog’s address that gives your readers an idea of what your blog is all about.<br>
+			<br>Now that you know where to compose your blog, start figuring out the template that you would like to use for it. Just remember that your template should not just look good but it also has to complement and highlight your content. Then finally, you can now plan and write your posts.
+
+
+
+
+			
+		</p>
+	</div>
+	
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips for Succesful Blogging</h1>
+			<img src="blogads3.png" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">Use a content calendar </li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Your content calendar will help you to organize and keep track of your blog posts. It will help you structure your blog rather than just having a to-do-list. You can create your calendar through MS Excel Sheets, Google Sheets, or use a templated calendar where you can include the Article title, brief description, relevant keywords, draft due date and post publish date. </p>
+
+				<li class="title">Be Relevant</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Posting consistently is great, but it is not enough to encourage your audience. What you need is to post with relevance and go with what is trending and in demand. </p>
+					
+				<li class="title">Use Keyword research </li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Keyword research is mostly used to identify the popular terms that people type into search engines, and if you are wondering how would this thing be useful for you, it helps you to have an idea of what content people are looking for and the questions they wanted to know where you create a content to give them an answer, which also makes your content relevant to the readers.   </p>
+					
+				<li class="title">Promote your blog </li><br>
+					
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">There are a lot of ways to promote your blog but the quickest way for you to get more viewers is by the use of social media. Aside from this, you can also use relevant hashtags, following accounts that have a similar content as you or you can also write a guest post. Guest posts means gaining exposure across the blogging community by writing an article for someone else’s blog to gain an exposure  and a wider audience of interested readers.</p>
+				
+				<li class="title">Optimize the use of search engines </li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Just like what I have mentioned above, search engines will help you find specific keywords that are relevant to your target audience. On the other side of it, this will also help you to get a higher chance of appearing first when people search for keywords that are related to your blog.</p>
+				
+				<li class="title">Consider affiliate marketing</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">This is optional, but this is where you can earn money from your blogs. Affiliate marketing means getting a commission from different marketers and partnerships by promoting their products or services on your blog. You can do this by creating content about their brand and placing a link where your readers can avail it. </p>
+					
+			</ul>
+			
+		</p>
+	</div>
+
+	
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of Blogging</h1>
+		<img src="blogads4.gif" class="imagesAds">
+		<br>
+		
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of Blogging Online</h2>
+		
+		<br>
+			
+			<ul style="list-style-type: disc;">
+				<li class="title">Starting a blog is easy, especially if writing is your interest</li><br><br>
+		
+				<li class="title">Zero to Low Startup Costs </li><br><br>
+		
+				<li class="title">It can be your platform for your own advertisements</li><br><br>
+
+				<li class="title">You gain the power to inspire and influence your readers</li><br><br>
+				
+				<li class="title">It can reach a wide range of audience </li><br><br>
+				
+				<li class="title">It can be a source of income</li><br><br>
+				
+				<li class="title">It has high return on investment</li><br><br>
+				
+			</ul>
+		
+			<br>
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of Blogging Online</h2>
+			<br>
+			
+			<ul style="list-style-type: disc;">
+			
+				<li class="title">Creating a content may be time consuming </li><br><br>
+				<li class="title">You can receive hate comments from your posts </li><br><br>
+				<li class="title">You have to be very careful because your audience might<br> misinterpret your content </li><br><br><br>
+				<li class="title">It can get problematic when technical issues occur </li><br><br>
+				<li class="title">It takes time to earn money</li><br><br>
+					
+			</ul>
+	</div>
+	<br>
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		
+		
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="blogarticle3.jpg" class="article-photo">
+			<p>2021 * 5-minute read</p>
+			<h2 style="text-decoration: underline;">5 Powerful Benefits Of Blogging For Your Small Business</h2>
+			<p> One of the most effective ways to build brand awareness to your target audience is through consistent blogging.</p>
+			<a href="https://www.cbo.me/blog/5-powerful-benefits-of-blogging-for-your-small-business#:~:text=to%20go%20further.-,One%20of%20the%20most%20effective%20ways%20to%20build%20brand%20awareness,and%20attract%20more%20perspective%20customers" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="blogarticle.jpg" class="article-photo">
+			<p>2021 * 15-minute read</p>
+			<h2 style="text-decoration: underline;">Beginner’s Guide to Business Blogging in 2021</h2>
+			<p>Is business blogging still worth it?
+			The answer is yes. Absolutely.
+			Read on to find out how to do business blogging the right way so that you can reap the rewards in 2021 and beyond.</p>
+			
+			<a href="https://www.singlegrain.com/blog-posts/beginners-guide-to-business-blogging/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a><br>
+			<br>
+		</div>
+		
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="blogarticle2.jpg" class="article-photo">
+			<p>2021 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">How To Start a Blog – Beginner’s Guide for 2021</h2>
+			<p>So, you want to start a blog huh? Great idea!
+			But…how do you get started? There’s so much info out there on the web, and everyone’s telling you to do different things. Who do you listen to?</p>
+			
+			<a href="https://www.bloggingbasics101.com/how-do-i-start-a-blog/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a><br>
+			<br>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="pangilinan.png"><img src="pangilinan.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">ANTHONET PANGILINAN</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: pangilinan.anthonet@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy</b>: WPMU DEV <br> <a href="https://www.youtube.com/watch?v=NjwUHXoi8lM" target="_blank" style="color: white">https://www.youtube.com/watch?v=NjwUHXoi8lM</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>

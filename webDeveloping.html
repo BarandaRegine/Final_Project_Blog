@@ -1,0 +1,396 @@
+<Doctype HTML>
+<html>
+<head>
+	<title>Freelance Web Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+<style type="text/css">
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font-family: Arial;
+		box-sizing: border-box;
+		background: linear-gradient( 99.6deg,  rgba(112,128,152,1) 10.6%, rgba(242,227,234,1) 32.9%, rgba(234,202,213,1) 52.7%, rgba(220,227,239,1) 72.8%, rgba(185,205,227,1) 81.1%, rgba(154,180,212,1) 102.4% ); 
+
+	}	
+	.container{
+
+		height: 400px;
+		width: 100%;
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(webdevehead.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-sizing: border-box;
+		padding:125px;
+		color: white;
+		text-align: center;
+		font-family: "Times New Roman";
+		letter-spacing: 10px;
+		word-spacing: 4px;
+		font-size: 1.5em;
+		margin-bottom: 80px;
+
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	li{
+		float: right;
+		padding-right: 40px;
+	}
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+		text-decoration:none;
+	}
+	li a:hover{
+		background-color: #526579;
+		border-radius: 20px;
+		padding: 10px 20px;
+	}
+	.column{
+		display: inline-block;
+		width: 21%;
+		padding: 10px;
+		margin: 50px 10px 0px 20px;
+	}
+	
+	.myLinks{
+		text-decoration: none;
+		border-radius: 20px;
+		padding: 8px 30px;
+		background-color: #082340;
+		color: white;
+
+	}
+	.myLinks:hover{
+		background-color: #9ca7b2;
+		padding: 8px 25px;
+		font-weight: bold;
+		color: #082340;
+	}
+	.intro{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin: 70px 70px;
+		padding: 20px;
+		background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+	}
+	.photo{
+		float: right;
+		width: 40%;
+		height: 310px;
+		margin: 0px 50px 0px 15px;
+	}
+	.content-a{
+		margin: 30px 30px 120px 50px;
+	}
+
+	.icons{
+		display: inline;
+		width: 11%;
+		height: 140px;
+		margin: 50px 50px 15px;
+	}
+	.intro-business{
+		font-size: 16px;
+		line-height: 30px;
+		word-spacing: 2px;
+		text-align: justify;
+		margin-top: 20px;
+		margin-right: 50px;
+		margin-left: 200px;
+		margin-bottom: 50px;
+		/*margin: 5px 70px 70px 180px;
+		padding: 20px; */
+		
+	}
+	.wrapper{
+	    width: 100%;
+	    height: 80vh;
+	    overflow: hidden;
+
+	}
+	.wrapper .wrapper__video{
+	    object-fit: cover;
+	    width: 100%;
+	    height: 100%;
+	}
+
+	.ads{
+	    width: 27%;
+	    height: 520px;
+	    margin-left: 30px;
+	    float: right;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+
+	}
+
+	.imagesAds{
+	    width: 22%; 
+	    height: 520px; 
+	    float: right; 
+	    margin-right: 43px;
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+	}
+
+	.card-photo{
+		width:100%;
+		height: 200px;
+	}
+	.card{
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+		margin: 0;
+		padding: 10px;
+		background-color: white;
+		width: 50%;
+	}
+	.author-photo{
+		width: 25%;
+		height: 130px;
+		padding-left: 50px;
+		float: left;
+		padding-top: 20px;
+		padding-right: 20px;
+	}
+
+	  .left-col {
+	    float: left;
+	    width: 50%;
+	    padding: 10px;
+	    word-spacing: 2px;
+	    letter-spacing: 3px;
+	}
+
+	  .row:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	  }
+
+	.article-photo{
+		float: left;
+		padding: 0px 30px;
+		width: 30%;
+		height: 180px;
+	}
+	.footer{
+		background: linear-gradient(to right, #243949 0%, #517fa4 100%); 
+		color: white; 
+		padding: 20px;
+		margin-top: 100px;
+	}
+	.title{
+		float: left;
+		margin-left: 300px; 
+		font-weight: bold;
+		font-size: 20px; 
+		font-family: gabriela;
+			
+	}
+
+
+</style>
+
+</head>
+<body>
+		<ul>
+			<li><a href="About_Us.html">ABOUT US</a></li>
+			<li><a href="index.html#business">BUSINESSES</a></li>
+			<li><a href="index.html">HOME</a></li>
+		</ul>
+		
+	<div class="container">
+		<h1>Freelance Web Developer</h1>
+	</div>
+	<img src="webdeve.jpg" class="photo">
+	<p class="intro">A web developer or programmer transforms a client's or design team's web design into a website. Since they must essentially convert a language that we understand, such as English, into a computer-friendly language, such as Python or HTML.There are many ways to make money as a developer these days. Freelancing is the best way to make money with coding while you're still learning. In fact, as a beginner programmer, becoming a freelance Web Developer is the quickest way to make money. Web designers who are reasonably professional earn about $75 per hour as freelancers. According to CSS-Tricks, this figure can vary. Website Builder Expert reports that it costs $30 to $80 per hour to design a website and $100 to $180 per hour to create one.</p>
+
+	<!--<h2 style="text-align: center;background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);; color: white; padding: 20px;">Pre-Loved Clothing</h2> -->
+
+
+	<div class="wrapper">
+	   <video autoplay loop muted class="wrapper__video">
+	      <source src="webdevevid.mp4">
+	   </video>  
+	</div>
+
+
+	<div align="center">
+		<div class="content-a">
+			<a href="#guide"><img src="guide.png" class="icons"></a>
+			<a href="#tips"><img src="Tips.png" class="icons"></a>
+			<a href="#proscons"><img src="proscons.png" class="icons"></a>
+			<a href="#articles"><img src="articles.png" class="icons"></a>
+			<br><br><br><hr size="1" width="100%" noshade>
+		</div>
+	</div>
+
+
+	<div class="guide" id="guide">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Guides for Freelance Web Developer</h1>
+
+		<img src="webads.jpg" class="imagesAds">
+
+			<ul style="list-style-type: disc;">
+				<br><br>
+				<li class="title">Find your niche</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Find a niche and focus your skills in a few areas. It's great to be a programmer that can do a bit of everything, but your value will be higher as an expert in just a few area. It'll be much easier to advertise your skills and make a name for yourself if you can say you're the best in a particular, sought-after area.</p>
+					
+
+				<li class="title">Start building anything or everything</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Portfolio is a way of displaying your skills and having an easy reference for potential clients. Keep a blog that explains your process, ask and answer questions on social media, and build, build, building every day. Metaphor for building a career as a freelance web developer. The best place to start is your portfolio website, the one website you will update, edit and continually develop for your entire career. For the rest of us, it's time to get building.</p>
+
+					<!--<img src="wrads3.png" class="imagesAds"> -->
+
+				<li class="title">Create your personal brand</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Professional freelancer Rebecca Shapiro gives advice on how to get your name out there. Showcase your work, build a network, teaching and blogging like an expert are all key. Make yourself visible by keeping your goals simple, she says. Be as far-reaching as possible, and seek out other freelancers from outside your industry. </p>
+
+		
+				<li class="title">Get organised</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Becoming a freelance web developer is not just about knowing how to code. It's about being a project manager, a salesperson and Head of Customer Care. You need to get organised.</p>
+
+				<li class="title">Build your experience, project by project</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Freelancer are great online marketplaces for newbies in the field to start taking on jobs and gaining experience. Use this step as a chance to learn how to handle clients, to find out what they will expect from you. While you're still finding your feet, experience is what counts in the business world.</p>
+
+				<li class="title">Be brave</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">When you start out, you're not going to be an expert in your field. Give your client a realistic idea of when they can expect that work back. If you tell them it's going to take longer than they expect, it's better to tell them now than when the deadline has passed.</p>
+
+			</ul>
+		</p>
+	</div>
+
+	<div class="tips" id="tips">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Tips of Freelance Web Developer</h1>
+			<img src="webads2.jpg" class="imagesAds">
+		<p class="intro-business">
+
+			<ul style="list-style-type: disc;">
+				<li class="title">No-code and low-code will drive application development</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Experienced developers can use these tools to streamline workflows and reduce their workloads. No-code tools lower the barrier to entry with visual programming interfaces and drag and drop tools for those who have never written a line of code. Despite these advancements, no-code hasn't fully established itself yet.</p>
+
+				<li class="title">Artificial intelligence and machine learning adoption to accelerate</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Artificial intelligence has been infiltrating our digital lives for a few years, but as more businesses invest in technology, we're seeing major advancements in what's possible. In particular, natural language processing (NLP) and machine learning (ML) have progressed from theoretical principles to practical applications.</p>
+
+				<li class="title">Smaller companies will favor SPAs for app development</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Single page applications (SPAs) will continue to grow in popularity. Google and Facebook are prime examples of how an SPA should function. Expect adoption to continue for other companies as well with JavaScript-basedframers and more users coming online.</p>
+			</ul>
+		</p>
+	</div>
+
+
+	<div class="proscons" id="proscons">
+		<h1 style="text-align: left; margin-left: 200px; font-family: playfair display">Pros & Cons of a Freelance Web Developer</h1>
+		<img src="webads3.jpg" class="imagesAds">
+
+		<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Pros of a Freelance Web Developer</h2>
+		
+		<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">It’s never mundane, unless you want it to be</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Once you get going, you'll get a constant flow of new projects to work on. The projects you can choose from are as diverse as people in the world. You'll often have more than one project going at once, and you'll never be stuck in a rut.</p>
+
+				<li class="title">You choose how much you work</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">If you run a home-based freelancing company, you don't need to ask permission to take time off for your family as long as you don't have a client waiting on a project. Take a break or a long weekend to recharge your batteries. You're as free as a bird as long as you can pay your bills.</p>
+
+				<li class="title">You have freedom in where you work</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">This may vary depending on the project, but in general, if you have a phone, WiFi, and a laptop, you can work from anywhere. That means you can work from anywhere, including at home, on the road, in a coffee shop, or in a coworking room. You get to choose where you feel most at ease and efficient.</p>
+			</ul>
+		</p>
+
+			<h2 style="text-align: left; margin-left: 200px; font-family: Suranna">Cons of a Freelance Web Developer</h2>
+
+			<p class="intro-business">
+			<ul style="list-style-type: disc;">
+				<li class="title">Freelancing can be extremely stressful</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Clients may be untrustworthy, work may fall through, and payments may not arrive as quickly as you'd like. You won't have a steady flow of cash coming in at first, particularly when you're building your portfolio and finding clients. It's possible that your daily life is emotionally draining.</p>
+
+				<li class="title">You may end up working odd hours</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">For existing freelancers, flexible hours are a privilege. When your customers are working, you will be working. You can be pickier after you've built up a solid client base and a strong referral network.</p>
+
+				<li class="title">You won’t get vacation or sick days</li><br>
+					<p class="intro-business" style="margin-left: 350px; margin-right: 380px;">Self-employment could be a good fit for you if you can handle confusion and pressure. You'll probably be happier working with an existing organization if you're looking for mentorship or training. What matters most in your decision is how much you appreciate those aspects of your job (or the work you want).</p>
+			</ul>
+	</div>
+
+
+	<div class="articles" id="articles">
+		<h1 style="text-align: center; color: midnightblue; padding:30px; font-family: playfair display">Related Articles</h1>
+		<hr size="1" width="100%" noshade>
+		<br><br><br>
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+
+			<img src="webdevarticle.png" class="article-photo">
+			<p>2019 * 13-minute read</p>
+
+			<h2 style="text-decoration: underline;">The 2021 FullStack Web Developer RoadMap</h2>
+			<p>If you want to learn to code or to become a Web Developer in 2021 then you have come to the right place...</p>
+			<br>
+			<a href="https://medium.com/javarevisited/the-2019-web-developer-roadmap-ab89ac3c380e" target="_blank" style="text-decoration: none; color: black; font-weight: bold; ">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:220px; padding: 20px;margin: auto; line-height: 25px;">
+			<img src="webdevarticle1.jpg" class="article-photo">
+			<p>2021 * 13-minute read</p>
+			<h2 style="text-decoration: underline;">How to Become a Freelance Web Developer</h2>
+			<p>You’re here because you’re ready to become a freelance web developer. Maybe ...</p>
+			<br>
+			<a href="https://www.freecodecamp.org/news/freelance-web-developer-guide/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+
+		<div style="box-shadow: 10px 8px 7px gray; background-color: white ;box-sizing: border-box; width: 50%; height:250px; padding: 30px;margin: auto; line-height: 25px;">
+			<img src="webdevarticle2.jpg" class="article-photo">
+			<p>2020 * 10-minute read</p>
+			<h2 style="text-decoration: underline;">How to Start a Clothing Business with Buying Wholesale – The Ultimate Guide</h2>
+			<p>Whether you are thinking about opening up a brick-and-mortar store, an eCommerce site or even....</p>
+			<br>
+			<a href="https://www.shirtmax.com/blog/start-a-clothing-business-with-buying-wholesale/" target="_blank" style="text-decoration: none; color: black; font-weight: bold;">Read More</a>
+		</div>
+		
+	</div>
+
+	<div class="footer">
+		<div class="row">
+			<div class="left-col">
+				<h1 style="color: white; padding-bottom: 20px; padding-left: 20px;">Author</h1>
+				<div style="box-shadow: 10px 5px 8px gray; padding: 40px 10px; width: 80%; height: 180px">
+					<a href="bayani.png"><img src="bayani.png" class="author-photo"></a>
+					<a href="About_Us.html"><h3 style="padding-top: 25px; line-height: 30px; text-decoration: underline; color: white; font-size: 22px;">ALEXANDER BAYANI</h3></a>
+					<p style="line-height: 25px">6 May 2021</p>
+					<p><i>University of the East- Manila</i></p>
+					<p><i>2nd-Year Student</i></p>
+					<a href = "mailto: bayani.alexander@ue.edu.ph"><img src="gmailicon.png" style="width: 25px; height: 25px; margin-top: 5px;"></a>
+				</div>
+			</div>
+			<div class="right-col">
+				<h2 style="color: white; padding-left: 20px; padding-top: 0px;">References</h2>
+				<br><p><b>Video Courtesy: <a href="https://www.youtube.com/watch?v=E6N19BBDXlU" style="color: white">Ha Talks</b><br>https://www.youtube.com/watch?v=E6N19BBDXlU</a></p>
+				<br>
+				<p>We create this content for general information purposes and all the information is base on our understanding and researches and it should not taken as advice. Always take professional advice.</p>
+				<br>		
+				<p><b>Disclaimer</b>: Note that we do not own the images and videos used in this website. All rights and credit goes directly to its rightful owners. This website is non-profit and made for educational purposes only. No copyright infringement intended. 
+				<br><br>
+				<i>"Copyright Disclaimer</i>, Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might 
+				otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use"</p><br>
+			</div>			
+		</div>		
+	</div>
+
+</body>
+</html>
